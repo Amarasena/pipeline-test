@@ -1,5 +1,5 @@
 node {
     stage('Run Python Script') {
-        sh 'python3 print_code.py'
+        sh 'python2 print_code.py'
     }
 }
